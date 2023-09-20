@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
       },
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        fontFamily: 'Wooju',
         scaffoldBackgroundColor: const Color(0xffECF5E6),
         useMaterial3: true,
       ),

@@ -10,9 +10,10 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      padding: const EdgeInsets.fromLTRB(0, 20, 0, 0),
       decoration: const BoxDecoration(
           gradient: LinearGradient(colors: [
-        Color.fromARGB(239, 88, 163, 255),
+        Color.fromARGB(238, 0, 64, 142),
         Color.fromARGB(255, 141, 176, 219)
       ], begin: Alignment.topCenter, end: Alignment.bottomCenter)),
       child: const Column(

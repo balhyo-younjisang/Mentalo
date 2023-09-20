@@ -5,9 +5,14 @@ class TreeWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      margin: const EdgeInsets.fromLTRB(0, 0, 150, 0),
-      child: const Image(image: AssetImage('assets/tree.png')),
+    return const SizedBox(
+      width: double.infinity,
+      child: Stack(alignment: Alignment.bottomLeft, children: [
+        Image(
+          image: AssetImage('assets/mountain.png'),
+        ),
+        Image(image: AssetImage('assets/tree.png'))
+      ]),
     );
   }
 }

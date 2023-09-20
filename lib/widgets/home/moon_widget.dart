@@ -7,9 +7,7 @@ class MoonWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Row(
       mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        Image(image: AssetImage('assets/moon.png')),
-      ],
+      children: [Image(image: AssetImage('assets/moon.png'))],
     );
   }
 }

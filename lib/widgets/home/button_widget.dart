@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mentalo/pages/diary_page.dart';
+import 'package:mentalo/pages/write_page.dart';
 
 class ButtonWidget extends StatelessWidget {
   const ButtonWidget({super.key});
@@ -16,7 +16,7 @@ class ButtonWidget extends StatelessWidget {
         InkWell(
           onTap: () {
             Navigator.push(context,
-                MaterialPageRoute(builder: (context) => const DiaryPage()));
+                MaterialPageRoute(builder: (context) => WriteDiaryPage()));
           },
           child: Container(
             padding: const EdgeInsets.all(10),
